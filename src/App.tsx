@@ -1,11 +1,9 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { Navigation } from "./routes/Navigation";
 
 function App() {
   return (
     <>
-      <h1>App.tsx</h1>
+      <Navigation />
     </>
   );
 }
